@@ -1,0 +1,53 @@
+* {
+    /* outline: 1px solid red; */
+}
+
+/* BODY  backgound gradient and color are being styled*/
+body {
+    background-image: linear-gradient(to top right, rgba(255,0,0,0), orange);
+}
+
+
+/* all contents in first DIV or BODY need to be centered */
+.container {
+    background: white;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+table, th, td {
+    border: 2px solid orange;
+}
+
+/* second DIV, parent of buttons, contains a border */
+#buttons {
+    border: 1px solid black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.result-header {
+    color: orange;
+}
+
+button {
+    border-radius: 25px;
+    font-size: 25px;
+}
+
+#flip-btn {
+    background-image: linear-gradient(to top right, rgba(255,0,0,0), lightblue);
+}
+
+#clear-btn {
+    background-image: linear-gradient(to top right, rgba(255,0,0,0), orange);
+}
