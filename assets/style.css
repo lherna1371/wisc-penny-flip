@@ -51,3 +51,12 @@ button {
 #clear-btn {
     background-image: linear-gradient(to top right, rgba(255,0,0,0), orange);
 }
+
+#flip-btn:hover {
+    background: red;
+}
+
+
+#clear-btn:hover {
+    background: red;
+}
